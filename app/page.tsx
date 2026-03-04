@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       {/* HERO */}
-      <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-gradient-to-br from-[#FFFDF7] via-[#FFF8E7] to-[#FFF3CD] px-[5%] pt-20">
+      <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-gradient-to-br from-[#FFFDF7] via-[#FFF8E7] to-[#FFF3CD] px-[5%] pb-16 pt-28 lg:pb-0 lg:pt-20">
         <div className="blob-gold" style={{ width: 500, height: 500, top: "-10%", right: "-5%" }} />
         <div className="blob-coral" style={{ width: 300, height: 300, bottom: "10%", left: "-5%" }} />
 
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="animate-fade-in-up delay-400 relative">
+            <div className="animate-fade-in-up delay-400 relative mb-8 lg:mb-0">
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#F7C948]/20 to-[#FF7F7F]/10 blur-2xl" />
               <div className="relative overflow-hidden rounded-[1.5rem] shadow-[0_20px_60px_rgba(15,52,96,0.12)]">
                 <img
@@ -54,10 +54,10 @@ export default function Home() {
                 />
               </div>
               {/* Floating music note decoration */}
-              <div className="note-float absolute -right-4 -top-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F7C948] shadow-lg">
+              <div className="note-float absolute -right-2 -top-2 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F7C948] shadow-lg md:-right-4 md:-top-4">
                 <span className="text-2xl text-[#0F3460]">♪</span>
               </div>
-              <div className="note-float absolute -bottom-3 -left-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF7F7F] shadow-lg" style={{ animationDelay: "-3s" }}>
+              <div className="note-float absolute bottom-2 left-2 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF7F7F] shadow-lg md:-bottom-3 md:-left-3" style={{ animationDelay: "-3s" }}>
                 <span className="text-xl text-white">♫</span>
               </div>
             </div>
