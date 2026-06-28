@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.forskolanharpan.se"),
   title: "Förskolan Harpan – Kristen förskola med musikprofil i Hässleholm",
   description:
     "En liten förskola med 31 barn, musikprofil och kristen värdegrund. Finjagatan 19, Hässleholm. Sök plats idag!",
