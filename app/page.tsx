@@ -96,9 +96,9 @@ export default function Home() {
                   <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#FFF3CD] text-2xl">
                     {item.icon}
                   </div>
-                  <h3 className="mb-2 text-base font-bold text-[#0F3460]" style={{ fontFamily: "var(--font-display)" }}>
+                  <h2 className="mb-2 text-base font-bold text-[#0F3460]" style={{ fontFamily: "var(--font-display)" }}>
                     {item.title}
-                  </h3>
+                  </h2>
                   <p className="text-sm text-[#0F3460]/60">{item.desc}</p>
                 </div>
               </ScrollReveal>

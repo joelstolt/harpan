@@ -23,7 +23,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase tracking-wider text-[#F7C948]">Kontakt</h4>
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-[#F7C948]">Kontakt</h2>
             <div className="flex flex-col gap-2.5 text-sm text-white/70">
               <span>Finjagatan 19, 281 50 Hässleholm</span>
               <a href="tel:0732646157" className="transition-colors hover:text-white">
@@ -36,7 +36,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase tracking-wider text-[#F7C948]">Huvudman</h4>
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-[#F7C948]">Huvudman</h2>
             <p className="text-sm text-white/70">Pingstkyrkan i Hässleholm</p>
             <div className="mt-6">
               <a
