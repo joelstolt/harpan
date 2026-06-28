@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "./components/ScrollReveal";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   return (
@@ -12,7 +17,7 @@ export default function Home() {
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
             <div>
               <div className="animate-fade-in-up mb-6 inline-flex items-center gap-2 rounded-full border border-[#F7C948]/30 bg-[#F7C948]/10 px-4 py-2">
-                <span className="text-lg">♪</span>
+                <span className="text-lg" aria-hidden="true">♪</span>
                 <span className="text-sm font-semibold text-[#0F3460]">Kristen förskola med musikprofil</span>
               </div>
 
@@ -47,17 +52,28 @@ export default function Home() {
             <div className="animate-fade-in-up delay-400 relative mb-8 lg:mb-0">
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#F7C948]/20 to-[#FF7F7F]/10 blur-2xl" />
               <div className="relative overflow-hidden rounded-[1.5rem] shadow-[0_20px_60px_rgba(15,52,96,0.12)]">
-                <img
-                  src="/musik.jpg"
-                  alt="Barn spelar instrument på Förskolan Harpan"
-                  className="h-full w-full object-cover"
-                />
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcSet="/musik-640.webp 640w, /musik-960.webp 960w, /musik-1280.webp 1280w"
+                    sizes="(min-width: 1024px) 600px, 100vw"
+                  />
+                  <img
+                    src="/musik-1280.jpg"
+                    width={1280}
+                    height={960}
+                    alt="Barn spelar instrument på Förskolan Harpan"
+                    fetchPriority="high"
+                    decoding="async"
+                    className="h-full w-full object-cover"
+                  />
+                </picture>
               </div>
               {/* Floating music note decoration */}
-              <div className="note-float absolute -right-2 -top-2 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F7C948] shadow-lg md:-right-4 md:-top-4">
+              <div className="note-float absolute -right-2 -top-2 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F7C948] shadow-lg md:-right-4 md:-top-4" aria-hidden="true">
                 <span className="text-2xl text-[#0F3460]">♪</span>
               </div>
-              <div className="note-float absolute bottom-2 left-2 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF7F7F] shadow-lg md:-bottom-3 md:-left-3" style={{ animationDelay: "-3s" }}>
+              <div className="note-float absolute bottom-2 left-2 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FF7F7F] shadow-lg md:-bottom-3 md:-left-3" style={{ animationDelay: "-3s" }} aria-hidden="true">
                 <span className="text-xl text-white">♫</span>
               </div>
             </div>
@@ -125,11 +141,18 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#F7C948]/15 to-transparent blur-xl" />
                 <div className="relative overflow-hidden rounded-[1.5rem] shadow-[0_20px_60px_rgba(15,52,96,0.1)]">
-                  <img
-                    src="/personal.jpg"
-                    alt="Personalen på Förskolan Harpan"
-                    className="h-full w-full object-cover"
-                  />
+                  <picture>
+                    <source type="image/webp" srcSet="/personal-640.webp" />
+                    <img
+                      src="/personal.jpg"
+                      width={640}
+                      height={480}
+                      alt="Personalen på Förskolan Harpan"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </picture>
                 </div>
               </div>
             </ScrollReveal>
@@ -172,7 +195,7 @@ export default function Home() {
                   <p>Ord skapar meningar.</p>
                   <p>Meningar skapar språk.</p>
                 </div>
-                <p className="mt-6 text-xs text-white/40">
+                <p className="mt-6 text-xs text-white/60">
                   Musikspråka i förskolan, med musik, rytm och rörelse 2003 – Mallo Vesterlund
                 </p>
               </div>

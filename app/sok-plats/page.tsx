@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "Sök plats",
+  description:
+    "Sök förskoleplats på Förskolan Harpan i Hässleholm via kommunens e-tjänst. Frågor? Ring rektor Susanne Stolt, 0732-64 61 57.",
+  alternates: { canonical: "/sok-plats" },
+};
 
 export default function SokPlats() {
   return (

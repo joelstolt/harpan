@@ -30,9 +30,9 @@ export const Navbar = () => {
       }`}
     >
       <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between px-[5%]">
-        <a href="/" className="flex items-center gap-2.5">
+        <a href="/" className="flex items-center gap-2.5" aria-label="Förskolan Harpan – till startsidan">
           {/* Harp logo */}
-          <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="20" cy="20" r="20" fill="#F7C948" />
             <path d="M14 28V14C14 11.5 16 9 20 9C24 9 26 11.5 26 14" stroke="#0F3460" strokeWidth="2.5" strokeLinecap="round" />
             <line x1="16" y1="16" x2="16" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
@@ -71,6 +71,9 @@ export const Navbar = () => {
         <button
           className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? "Stäng meny" : "Öppna meny"}
+          aria-expanded={isOpen}
+          aria-controls="mobile-menu"
         >
           <span
             className={`block h-[2px] w-5 rounded-full bg-[#0F3460] transition-all duration-300 ${
@@ -91,6 +94,7 @@ export const Navbar = () => {
       </div>
 
       <div
+        id="mobile-menu"
         className={`overflow-hidden bg-white transition-all duration-500 lg:hidden ${
           isOpen ? "max-h-[500px] pb-6 shadow-lg" : "max-h-0"
         }`}

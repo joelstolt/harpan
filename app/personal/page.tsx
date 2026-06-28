@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "Personal",
+  description:
+    "Möt personalen på Förskolan Harpan – en kristen musikförskola i Hässleholm. Kontakta rektor Susanne Stolt.",
+  alternates: { canonical: "/personal" },
+};
 
 export default function Personal() {
   return (
@@ -28,11 +36,18 @@ export default function Personal() {
             <div className="relative">
               <div className="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-[#F7C948]/15 to-[#FF7F7F]/10 blur-2xl" />
               <div className="relative overflow-hidden rounded-[1.5rem] shadow-[0_20px_60px_rgba(15,52,96,0.1)]">
-                <img
-                  src="/personal.jpg"
-                  alt="Personalen på Förskolan Harpan"
-                  className="h-full w-full object-cover"
-                />
+                <picture>
+                  <source type="image/webp" srcSet="/personal-640.webp" />
+                  <img
+                    src="/personal.jpg"
+                    width={640}
+                    height={480}
+                    alt="Personalen på Förskolan Harpan"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover"
+                  />
+                </picture>
               </div>
             </div>
           </ScrollReveal>

@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "Värdegrund",
+  description:
+    "Förskolan Harpans värdegrund: trygghet, alla barns lika värde, barnkonventionen och kristna värderingar. Kristen musikförskola i Hässleholm.",
+  alternates: { canonical: "/vardegrund" },
+};
 
 export default function Vardegrund() {
   return (

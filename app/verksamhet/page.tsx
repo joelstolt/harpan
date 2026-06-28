@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "Verksamhet",
+  description:
+    "Så jobbar Förskolan Harpan – temainriktat arbetssätt utifrån Lpfö25 med musik, teknik och rörelse. Läs om vår pedagogik, samverkan och inskolning.",
+  alternates: { canonical: "/verksamhet" },
+};
 
 export default function Verksamhet() {
   return (

@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "Kontakt",
+  description:
+    "Kontakta Förskolan Harpan – Finjagatan 19, Hässleholm. Rektor Susanne Stolt, 0732-64 61 57, info@forskolanharpan.se.",
+  alternates: { canonical: "/kontakt" },
+};
 
 export default function Kontakt() {
   return (
@@ -72,14 +80,14 @@ export default function Kontakt() {
           <ScrollReveal delay={300}>
             <div className="mt-12 rounded-2xl border border-[#0F3460]/5 bg-white p-2 shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2213.5!2d13.7665!3d56.1590!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sFinjagatan+19%2C+281+50+H%C3%A4ssleholm!5e0!3m2!1ssv!2sse!4v1"
+                src="https://maps.google.com/maps?q=Finjagatan%2019%2C%20281%2050%20H%C3%A4ssleholm&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="350"
                 style={{ border: 0, borderRadius: "0.75rem" }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Förskolan Harpan - Karta"
+                title="Karta till Förskolan Harpan, Finjagatan 19 i Hässleholm"
               />
             </div>
           </ScrollReveal>
