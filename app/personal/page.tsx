@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { pageMeta } from "../seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: "Personal",
   description:
     "Möt personalen på Förskolan Harpan – en kristen musikförskola i Hässleholm. Kontakta rektor Susanne Stolt.",
-  alternates: { canonical: "/personal" },
-};
+  path: "/personal",
+});
 
 export default function Personal() {
   return (

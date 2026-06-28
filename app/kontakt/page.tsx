@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { pageMeta } from "../seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: "Kontakt",
   description:
     "Kontakta Förskolan Harpan – Finjagatan 19, Hässleholm. Rektor Susanne Stolt, 0732-64 61 57, info@forskolanharpan.se.",
-  alternates: { canonical: "/kontakt" },
-};
+  path: "/kontakt",
+});
 
 export default function Kontakt() {
   return (

@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { pageMeta } from "../seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: "Värdegrund",
   description:
     "Förskolan Harpans värdegrund: trygghet, alla barns lika värde, barnkonventionen och kristna värderingar. Kristen musikförskola i Hässleholm.",
-  alternates: { canonical: "/vardegrund" },
-};
+  path: "/vardegrund",
+});
 
 export default function Vardegrund() {
   return (
