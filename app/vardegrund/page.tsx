@@ -11,7 +11,7 @@ export const metadata = pageMeta({
 export default function Vardegrund() {
   return (
     <main>
-      <section className="bg-gradient-to-b from-[#FFF8E7] to-[#FFFDF7] px-[5%] pb-20 pt-32 md:pb-28 md:pt-40">
+      <section className="bg-gradient-to-b from-[#FFF8E7] to-[#FFFDF7] px-[5%] pb-8 pt-32 md:pb-10 md:pt-40">
         <div className="mx-auto max-w-[1200px]">
           <ScrollReveal>
             <div className="mx-auto max-w-3xl text-center">
@@ -27,7 +27,7 @@ export default function Vardegrund() {
         </div>
       </section>
 
-      <section className="px-[5%] py-20 md:py-28">
+      <section className="px-[5%] pt-10 pb-20 md:pt-14 md:pb-28">
         <div className="mx-auto max-w-[900px]">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             {[
@@ -40,8 +40,8 @@ export default function Vardegrund() {
               { icon: "🌱", text: "Har en hälsofrämjande miljö." },
               { icon: "✝️", text: "Står för kristna värderingar." },
             ].map((item, i) => (
-              <ScrollReveal key={i} delay={i * 80}>
-                <div className="card-lift flex gap-4 rounded-2xl border border-[#0F3460]/5 bg-white p-6 shadow-sm">
+              <ScrollReveal key={i} delay={i * 80} className="h-full">
+                <div className="card-lift flex h-full gap-4 rounded-2xl border border-[#0F3460]/5 bg-white p-6 shadow-sm">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#FFF3CD] text-xl">
                     {item.icon}
                   </div>

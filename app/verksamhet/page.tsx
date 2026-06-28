@@ -11,7 +11,7 @@ export const metadata = pageMeta({
 export default function Verksamhet() {
   return (
     <main>
-      <section className="bg-gradient-to-b from-[#FFF8E7] to-[#FFFDF7] px-[5%] pb-20 pt-32 md:pb-28 md:pt-40">
+      <section className="bg-gradient-to-b from-[#FFF8E7] to-[#FFFDF7] px-[5%] pb-8 pt-32 md:pb-10 md:pt-40">
         <div className="mx-auto max-w-[1200px]">
           <ScrollReveal>
             <div className="mx-auto max-w-3xl text-center">
@@ -30,7 +30,7 @@ export default function Verksamhet() {
         </div>
       </section>
 
-      <section className="px-[5%] py-20 md:py-28">
+      <section className="px-[5%] pt-10 pb-20 md:pt-14 md:pb-28">
         <div className="mx-auto max-w-[800px] space-y-16">
           <ScrollReveal>
             <div>

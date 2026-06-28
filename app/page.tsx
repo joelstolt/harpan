@@ -91,8 +91,8 @@ export default function Home() {
               { icon: "🍽️", title: "Hemlagad lunch", desc: "Nyttig och vällagad mat varje dag" },
               { icon: "🌳", title: "Härlig gård", desc: "Gungor, rutschkana, cykelbana och sandhav" },
             ].map((item, i) => (
-              <ScrollReveal key={i} delay={i * 100}>
-                <div className="card-lift rounded-2xl border border-[#0F3460]/5 bg-white p-6 text-center shadow-sm">
+              <ScrollReveal key={i} delay={i * 100} className="h-full">
+                <div className="card-lift h-full rounded-2xl border border-[#0F3460]/5 bg-white p-6 text-center shadow-sm">
                   <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#FFF3CD] text-2xl">
                     {item.icon}
                   </div>
