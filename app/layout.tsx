@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from "next";
-import { Quicksand, DM_Sans } from "next/font/google";
+import { Fredoka, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
-const quicksand = Quicksand({
+const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-display",
@@ -92,7 +92,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sv" className={`${quicksand.variable} ${dmSans.variable}`}>
+    <html lang="sv" className={`${fredoka.variable} ${dmSans.variable}`}>
       <body>
         <script
           type="application/ld+json"
