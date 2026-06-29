@@ -4,18 +4,14 @@ export const Footer = () => {
       <div className="mx-auto max-w-[1200px]">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4 flex items-center gap-2.5">
-              <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="20" cy="20" r="20" fill="#F7C948" />
-                <path d="M14 28V14C14 11.5 16 9 20 9C24 9 26 11.5 26 14" stroke="#0F3460" strokeWidth="2.5" strokeLinecap="round" />
-                <line x1="16" y1="16" x2="16" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-                <line x1="20" y1="13" x2="20" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-                <line x1="24" y1="16" x2="24" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-                <path d="M12 28H28" stroke="#0F3460" strokeWidth="2.5" strokeLinecap="round" />
-              </svg>
-              <span className="text-lg font-bold" style={{ fontFamily: "var(--font-display)" }}>
-                Förskolan <span className="text-[#F7C948]">Harpan</span>
-              </span>
+            <div className="mb-4">
+              <img
+                src="/harpan-logo-dark.png"
+                alt="Förskolan Harpan"
+                width={325}
+                height={146}
+                className="h-12 w-auto"
+              />
             </div>
             <p className="max-w-xs text-sm leading-relaxed text-white/70">
               En kristen förskola med musikprofil i Hässleholm. 31 barn på två avdelningar – Pärlan och Diamanten.

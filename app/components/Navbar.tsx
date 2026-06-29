@@ -30,24 +30,14 @@ export const Navbar = () => {
       }`}
     >
       <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between px-[5%]">
-        <a href="/" className="flex items-center gap-2.5" aria-label="Förskolan Harpan – till startsidan">
-          {/* Harp logo */}
-          <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="20" cy="20" r="20" fill="#F7C948" />
-            <path d="M14 28V14C14 11.5 16 9 20 9C24 9 26 11.5 26 14" stroke="#0F3460" strokeWidth="2.5" strokeLinecap="round" />
-            <line x1="16" y1="16" x2="16" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-            <line x1="20" y1="13" x2="20" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-            <line x1="24" y1="16" x2="24" y2="28" stroke="#0F3460" strokeWidth="1.5" strokeLinecap="round" />
-            <path d="M12 28H28" stroke="#0F3460" strokeWidth="2.5" strokeLinecap="round" />
-          </svg>
-          <div className="flex flex-col leading-tight">
-            <span className="text-lg font-bold text-[#0F3460]" style={{ fontFamily: "var(--font-display)" }}>
-              Förskolan
-            </span>
-            <span className="text-lg font-bold text-[#F7C948]" style={{ fontFamily: "var(--font-display)" }}>
-              Harpan
-            </span>
-          </div>
+        <a href="/" className="flex items-center" aria-label="Förskolan Harpan – till startsidan">
+          <img
+            src="/harpan-logo-light.png"
+            alt="Förskolan Harpan"
+            width={321}
+            height={138}
+            className="h-11 w-auto"
+          />
         </a>
 
         <div className="hidden items-center gap-6 lg:flex">
