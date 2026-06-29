@@ -29,14 +29,15 @@ export const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between px-[5%]">
+      <div className="px-[5%]">
+        <div className="mx-auto flex h-[76px] max-w-[1200px] items-center justify-between">
         <a href="/" className="flex items-center" aria-label="Förskolan Harpan – till startsidan">
           <img
             src="/harpan-logo-light.png"
             alt="Förskolan Harpan"
             width={321}
             height={138}
-            className="h-11 w-auto"
+            className="h-14 w-auto"
           />
         </a>
 
@@ -81,6 +82,7 @@ export const Navbar = () => {
             }`}
           />
         </button>
+        </div>
       </div>
 
       <div
