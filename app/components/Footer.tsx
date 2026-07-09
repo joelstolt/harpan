@@ -51,6 +51,10 @@ export const Footer = () => {
         <div className="mt-12 border-t border-white/10 pt-8 text-center">
           <p className="text-xs text-white/60">
             © {new Date().getFullYear()} Förskolan Harpan. Alla rättigheter förbehållna.
+            {" · "}Webb:{" "}
+            <a href="https://www.stoltmarketing.se" className="underline underline-offset-2 hover:text-white">
+              Stolt Marketing
+            </a>
           </p>
         </div>
       </div>
