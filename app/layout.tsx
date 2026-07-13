@@ -101,6 +101,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+              <script defer src="https://umami-analytics-tau-two.vercel.app/script.js" data-website-id="ec5d26a4-37f9-468b-adee-812d01880c7f" />
       </body>
     </html>
   );
