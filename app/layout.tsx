@@ -21,6 +21,7 @@ const dmSans = DM_Sans({
 const SITE_URL = "https://www.forskolanharpan.se";
 
 export const metadata: Metadata = {
+  verification: { google: "KffAt4BsYR12nylAot50dAzKLqqRMj81TgekbuZzhWU" },
   metadataBase: new URL(SITE_URL),
   title: {
     default: "Förskolan Harpan – Kristen förskola med musikprofil i Hässleholm",
