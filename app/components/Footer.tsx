@@ -6,7 +6,7 @@ export const Footer = () => {
           <div>
             <div className="mb-4">
               <img
-                src="/harpan-logo-dark.png"
+                src="/harpan-logo-dark.webp"
                 alt="Förskolan Harpan"
                 width={325}
                 height={146}

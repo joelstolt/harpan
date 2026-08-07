@@ -39,7 +39,7 @@ export default function Personal() {
                 <picture>
                   <source type="image/webp" srcSet="/personal-640.webp" />
                   <img
-                    src="/personal.jpg"
+                    src="/personal.webp"
                     width={640}
                     height={480}
                     alt="Personalen på Förskolan Harpan"
