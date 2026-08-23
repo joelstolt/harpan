@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
+import TelTracker from "./components/TelTracker";
 const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -103,6 +104,7 @@ export default function RootLayout({
         {children}
         <Footer />
               <script defer src="https://umami-analytics-tau-two.vercel.app/script.js" data-website-id="ec5d26a4-37f9-468b-adee-812d01880c7f" />
+      <TelTracker />
       </body>
     </html>
   );
