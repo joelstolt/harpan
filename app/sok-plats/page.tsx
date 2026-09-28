@@ -35,7 +35,7 @@ export default function SokPlats() {
           <ScrollReveal>
             <div className="space-y-6">
               <a
-                href="https://www.hassleholm.se/utbildning-och-barnomsorg/forskola-och-barnomsorg/e-tjanst.html"
+                href="https://www.hassleholm.se/utbildning-och-barnomsorg/forskola-och-barnomsorg/ansokan-platserbjudande-schema-uppsagning"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card-lift flex items-center gap-5 rounded-2xl border border-[#0F3460]/5 bg-white p-6 shadow-sm transition-colors hover:border-[#F7C948]/30 md:p-8"
