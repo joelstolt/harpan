@@ -4,7 +4,7 @@ import { pageMeta } from "../seo";
 export const metadata = pageMeta({
   title: "Verksamhet",
   description:
-    "Så jobbar Förskolan Harpan – temainriktat arbetssätt utifrån Lpfö25 med musik, teknik och rörelse. Läs om vår pedagogik, samverkan och inskolning.",
+    "Så jobbar Förskolan Harpan. Temainriktat arbetssätt utifrån Lpfö25 med fokus på språkutveckling och musik. Läs om vår pedagogik, samverkan och inskolning.",
   path: "/verksamhet",
 });
 
@@ -46,16 +46,27 @@ export default function Verksamhet() {
                 className="mb-4 text-2xl font-bold text-[#0F3460]"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Utvecklingsområde 2025/2026
+                Insatser läsåret 2026/2027
               </h2>
-              <p className="mb-4 text-[#0F3460]/70 leading-relaxed">
-                Läsårets fokusområden är <strong className="text-[#0F3460]">teknik</strong> och <strong className="text-[#0F3460]">rörelse</strong>.
+              <p className="mb-8 text-[#0F3460]/70 leading-relaxed">
+                Inom undervisning och utbildning är läsårets utvecklingsområden <strong className="text-[#0F3460]">barns språkutveckling</strong> och <strong className="text-[#0F3460]">musik</strong>.
               </p>
+
+              <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
+                Utvecklingsområde 1: Barns språkutveckling
+              </h3>
+              <p className="mb-8 text-[#0F3460]/70 leading-relaxed">
+                <strong className="text-[#0F3460]">Syfte:</strong> Utmana och stärka barnen i deras språkliga utveckling genom bland annat högläsning, rim och ramsor samt uppmuntra att våga. Genom att skapa trygga och meningsfulla situationer där barnet blir lyssnat på, får sätta ord på sina tankar och uppleva glädjen i att kommunicera läggs grunden både för socialt samspel och livslångt lärande.
+              </p>
+
+              <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
+                Utvecklingsområde 2: Musik
+              </h3>
               <p className="mb-4 text-[#0F3460]/70 leading-relaxed">
-                Teknik tar vi ofta för given, men för att barnen ska kunna utveckla en förståelse för teknik behöver vi synliggöra den. Genom att uppmärksamma tekniken i vardagliga situationer får barnen möjlighet att utveckla sina kunskaper och lägga en grund för ett livslångt lärande.
+                <strong className="text-[#0F3460]">Syfte:</strong> Att barnen ska uppleva glädjen i sången och musiken och att de ska få prova på olika instrument samt rytmer och dynamik. Sträva efter att göra barnen medvetna om sin egen röst, så att de vågar använda den.
               </p>
               <p className="text-[#0F3460]/70 leading-relaxed">
-                Förskolan vill också skapa goda förutsättningar för att barnen ska utveckla en allsidig rörelseförmåga. Därför erbjuds dagligen olika former av fysiska aktiviteter.
+                Vi följer ett årshjul i förskolans musikundervisning där innehållet kan bestå i musik/dans, musik/skapande, musik/rytmik, musik/drama, musik/instrument och så vidare.
               </p>
             </div>
           </ScrollReveal>
