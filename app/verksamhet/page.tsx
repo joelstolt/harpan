@@ -48,10 +48,6 @@ export default function Verksamhet() {
               >
                 Insatser läsåret 2026/2027
               </h2>
-              <p className="mb-8 text-[#0F3460]/70 leading-relaxed">
-                Inom undervisning och utbildning är läsårets utvecklingsområden <strong className="text-[#0F3460]">barns språkutveckling</strong> och <strong className="text-[#0F3460]">musik</strong>.
-              </p>
-
               <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
                 Utvecklingsområde 1: Barns språkutveckling
               </h3>
