@@ -46,23 +46,20 @@ export default function Verksamhet() {
                 className="mb-4 text-2xl font-bold text-[#0F3460]"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Insatser läsåret 2026/2027
+                Insatser läsåret 26/27
               </h2>
               <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
                 Utvecklingsområde 1: Barns språkutveckling
               </h3>
               <p className="mb-8 text-[#0F3460]/70 leading-relaxed">
-                <strong className="text-[#0F3460]">Syfte:</strong> Utmana och stärka barnen i deras språkliga utveckling genom bland annat högläsning, rim och ramsor samt uppmuntra att våga. Genom att skapa trygga och meningsfulla situationer där barnet blir lyssnat på, får sätta ord på sina tankar och uppleva glädjen i att kommunicera läggs grunden både för socialt samspel och livslångt lärande.
+                Syftet är att stärka barnen i deras språkutveckling och det gör vi bland annat genom högläsning, rim och ramsor och uppmuntrar dem till att våga uttrycka sig. Genom att skapa trygga och meningsfulla situationer där barnet blir lyssnade på får de möjlighet att sätta ord på sina tankar och upplevelser. I kommunikationen med andra läggs grunden både för socialt samspel och livslångt lärande.
               </p>
 
               <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
                 Utvecklingsområde 2: Musik
               </h3>
-              <p className="mb-4 text-[#0F3460]/70 leading-relaxed">
-                <strong className="text-[#0F3460]">Syfte:</strong> Att barnen ska uppleva glädjen i sången och musiken och att de ska få prova på olika instrument samt rytmer och dynamik. Sträva efter att göra barnen medvetna om sin egen röst, så att de vågar använda den.
-              </p>
               <p className="text-[#0F3460]/70 leading-relaxed">
-                Vi följer ett årshjul i förskolans musikundervisning där innehållet kan bestå i musik/dans, musik/skapande, musik/rytmik, musik/drama, musik/instrument och så vidare.
+                Syftet är att barnen ska få uppleva glädjen i sången och musiken. I musikundervisningen får de får prova på olika instrument, rytm, puls och dynamik. Vi hjälper barnen att bli medvetna om sin egen röst, så att de vågar använda den.
               </p>
             </div>
           </ScrollReveal>
