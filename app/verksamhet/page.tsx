@@ -52,14 +52,14 @@ export default function Verksamhet() {
                 Utvecklingsområde 1: Barns språkutveckling
               </h3>
               <p className="mb-8 text-[#0F3460]/70 leading-relaxed">
-                Syftet är att stärka barnen i deras språkutveckling och det gör vi bland annat genom högläsning, rim och ramsor och uppmuntrar dem till att våga uttrycka sig. Genom att skapa trygga och meningsfulla situationer där barnet blir lyssnade på får de möjlighet att sätta ord på sina tankar och upplevelser. I kommunikationen med andra läggs grunden både för socialt samspel och livslångt lärande.
+                Syftet är att stärka barnen i deras språkutveckling och det gör vi bland annat genom högläsning, rim och ramsor och uppmuntrar dem till att våga uttrycka sig. Genom att skapa trygga och meningsfulla situationer där barnet blir lyssnat på får de möjlighet att sätta ord på sina tankar och upplevelser. I kommunikationen med andra läggs grunden både för socialt samspel och livslångt lärande.
               </p>
 
               <h3 className="mb-3 text-lg font-bold text-[#0F3460]">
                 Utvecklingsområde 2: Musik
               </h3>
               <p className="text-[#0F3460]/70 leading-relaxed">
-                Syftet är att barnen ska få uppleva glädjen i sången och musiken. I musikundervisningen får de får prova på olika instrument, rytm, puls och dynamik. Vi hjälper barnen att bli medvetna om sin egen röst, så att de vågar använda den.
+                Syftet är att barnen ska få uppleva glädjen i sången och musiken. I musikundervisningen får de prova på olika instrument, rytm, puls och dynamik. Vi hjälper barnen att bli medvetna om sin egen röst, så att de vågar använda den.
               </p>
             </div>
           </ScrollReveal>
